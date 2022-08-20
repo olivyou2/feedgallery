@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;600&display=swap");
+
+.FeedWrapper {
+  width: 100vw;
+  height: 100vh;
+
+  color: white;
+  font-family: "Hahmlet", serif;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.FeedImgWrapper {
+  overflow: hidden;
+  scroll-behavior: smooth;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.FeedImg {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.FeedInfo {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.FeedInfoTitle {
+  font-size: 48px;
+  font-weight: 600;
+
+  letter-spacing: -1px;
+}
+
+.FeedInfoDesc {
+  font-size: 17px;
+  font-weight: 300;
+
+  letter-spacing: -0.5px;
+  width: 300px;
+
+  word-break: keep-all;
+}
+
+.FeedAuthor {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  margin-right: 20px;
+  margin-top: 20px;
+
+  color: white;
+
+  font-family: "Hahmlet", serif;
+  font-weight: 600;
+}

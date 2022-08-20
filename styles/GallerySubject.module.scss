@@ -1,0 +1,33 @@
+.GallerySubject {
+  width: 240px;
+  height: 190px;
+
+  margin-right: 12px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.GalleryImgWrapper {
+  width: 240px;
+  height: 160px;
+
+  display: flex;
+}
+
+.GalleryImg {
+  display: block;
+
+  width: 240px;
+  height: 160px;
+
+  object-fit: cover;
+
+  -webkit-box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.2);
+}
+
+.GalleryName {
+  margin-top: 2px;
+  font-size: 15px;
+}

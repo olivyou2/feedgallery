@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;600&display=swap");
+
+.GalleryWrapper {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: #121212;
+  color: white;
+  font-family: "Hahmlet", serif;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.GalleryAuthor {
+  font-size: 48px;
+  font-weight: 900;
+
+  margin-top: 48px;
+  margin-left: 24px;
+
+  @media screen and (max-width: 375px) {
+    font-size: 24px;
+  }
+}
+
+.GalleryAuthorDesc {
+  width: 50vw;
+  flex: 1;
+
+  font-size: 18px;
+  font-weight: 100;
+
+  margin-top: 12px;
+  margin-left: 24px;
+
+  letter-spacing: -1px;
+  word-break: keep-all;
+  @media screen and (max-width: 375px) {
+    font-size: 12px;
+  }
+}
+
+.GalleryOther {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 30px;
+
+  font-size: 18px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.GalleryOtherTitle {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.GallerySubjectWrapper {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  overflow: scroll;
+
+  margin-top: 12px;
+  height: 200px;
+}
